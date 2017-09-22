@@ -2,6 +2,11 @@ package com.jk.solution;
 
 public class ReverseInteger_7 {
 
+    public static void test7() {
+        System.out.println("7 ReverseInteger:");
+        System.out.println(ReverseInteger_7.reverse(153426));
+    }
+
     public static int reverse(int x) {
         int left = x;
         int ret = 0;
