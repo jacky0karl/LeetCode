@@ -2,7 +2,7 @@ package com.jk.solution;
 
 public class ReverseInteger_7 {
 
-    public static void test7() {
+    public static void test() {
         System.out.println("7 ReverseInteger:");
         System.out.println(ReverseInteger_7.reverse(153426));
     }

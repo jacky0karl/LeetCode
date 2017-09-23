@@ -1,10 +1,9 @@
 package com.jk.solution;
 
-import java.util.stream.StreamSupport;
 
 public class CommonPrefix_14 {
 
-    public static void test14() {
+    public static void test() {
         System.out.println("14 Longest Common Prefix:");
         String[] strs = new String[]{"ads", "abd", "abcg"};
         System.out.println(longestCommonPrefix(strs));
