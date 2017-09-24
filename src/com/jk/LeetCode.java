@@ -1,12 +1,12 @@
 package com.jk;
 
-import com.jk.solution.ValidParentheses_20;
+import com.jk.solution.MergeSortedLists_21;
 
 public class LeetCode {
 
     public static void main(String[] args) {
         System.out.println("JK");
-        ValidParentheses_20.test();
+        MergeSortedLists_21.test();
     }
 
 
