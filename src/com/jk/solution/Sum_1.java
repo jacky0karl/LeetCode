@@ -3,7 +3,7 @@ package com.jk.solution;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Sum_2 {
+public class Sum_1 {
 
     public static void test() {
         System.out.println("2 Sum:");
