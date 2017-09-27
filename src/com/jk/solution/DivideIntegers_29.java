@@ -4,7 +4,28 @@ public class DivideIntegers_29 {
 
     public static void test() {
         System.out.println("29 Divide Integers:");
-        System.out.println("result = " + divide(15, 3));
+        // System.out.println("result = " + divide(Integer.MAX_VALUE, 3));
+        System.out.println("multiply result = " + multiply(4, 88));
+    }
+
+    private static long multiply(long target, long multiplier) {
+        if (multiplier <= 0) {
+            return 0;
+        }
+
+        long sum = 0;
+        long ret = 0;
+        long multiplied = 0;
+        while (multiplied < multiplier) {
+            ret++;
+            multiplied = (1L << ret);
+            sum = target << ret;
+        }
+
+        sum >>= 1;
+        ret--;
+        multiplied = (1L << ret);
+        return sum + multiply(target, multiplier - multiplied);
     }
 
     public static int divide(int dividend, int divisor) {
@@ -30,8 +51,11 @@ public class DivideIntegers_29 {
         return ret;
     }
 
+    private static int count = 0;
     private static long ldivide(long ldividend, long ldivisor) {
+        count++;
         if (ldividend < ldivisor) {
+            System.out.println(" count = " + count);
             return 0;
         }
 
@@ -104,14 +128,6 @@ public class DivideIntegers_29 {
 
         }
 
-        return result;
-    }
-
-    private static long multiply(long target, long multiplier) {
-        long result = 0;
-        for (; multiplier > 0; multiplier--) {
-            result += target;
-        }
         return result;
     }
 
