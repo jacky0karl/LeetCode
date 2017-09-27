@@ -4,34 +4,50 @@ public class DivideIntegers_29 {
 
     public static void test() {
         System.out.println("29 Divide Integers:");
-        System.out.println("result = " + divide(2147483647, 727665511));
+        System.out.println("result = " + divide(15, 3));
     }
 
     public static int divide(int dividend, int divisor) {
-        //Reduce the problem to positive long integer to make it easier.
-        //Use long to avoid integer overflow cases.
         int sign = 1;
         if ((dividend > 0 && divisor < 0) || (dividend < 0 && divisor > 0))
             sign = -1;
+
         long ldividend = Math.abs((long) dividend);
         long ldivisor = Math.abs((long) divisor);
 
-        //Take care the edge cases.
-        if (ldivisor == 0) return Integer.MAX_VALUE;
-        if ((ldividend == 0) || (ldividend < ldivisor)) return 0;
+        if (ldivisor == 0)
+            return Integer.MAX_VALUE;
+        if ((ldividend == 0) || (ldividend < ldivisor))
+            return 0;
 
-        long lans = ldivide1(ldividend, ldivisor);
-
-        int ans;
-        if (lans > Integer.MAX_VALUE) { //Handle overflow.
-            ans = (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+        long lret = ldivide(ldividend, ldivisor);
+        int ret;
+        if (lret > Integer.MAX_VALUE) {
+            ret = (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
         } else {
-            ans = (int) (sign * lans);
+            ret = (int) (sign * lret);
         }
-        return ans;
+        return ret;
     }
 
     private static long ldivide(long ldividend, long ldivisor) {
+        if (ldividend < ldivisor) {
+            return 0;
+        }
+
+        long sum = 0;
+        long ret = 0;
+        while (sum < ldividend) {
+            ret++;
+            sum = ldivisor << ret;
+        }
+
+        sum >>= 1;
+        ret--;
+        return (1L << ret) + ldivide(ldividend - sum, ldivisor);
+    }
+
+    private static long ldivide0(long ldividend, long ldivisor) {
         // Recursion exit condition
         if (ldividend < ldivisor) return 0;
 
