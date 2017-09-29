@@ -1,12 +1,12 @@
 package com.jk;
 
-import com.jk.solution.PalindromeNumber_9;
+import com.jk.solution.String2Integer_8;
 
 public class LeetCode {
 
     public static void main(String[] args) {
         System.out.println("JK");
-        PalindromeNumber_9.test();
+        String2Integer_8.test();
     }
 
 

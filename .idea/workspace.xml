@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762160b8-7086-4fa4-8c49-c08a4578639f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jk/solution/PalindromeNumber_9.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jk/solution/String2Integer_8.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jk/LeetCode.java" afterPath="$PROJECT_DIR$/src/com/jk/LeetCode.java" />
     </list>
@@ -23,17 +23,27 @@
         <entry file="file://$PROJECT_DIR$/src/com/jk/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromeNumber_9.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jk/solution/PalindromeNumber_9.java">
+      <file leaf-file-name="String2Integer_8.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jk/solution/String2Integer_8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sum_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jk/solution/Sum_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -42,8 +52,8 @@
       <file leaf-file-name="ReverseInteger_7.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jk/solution/ReverseInteger_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="323">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -79,8 +89,9 @@
         <option value="$PROJECT_DIR$/src/com/jk/solution/AddTwoNumbers_2.java" />
         <option value="$PROJECT_DIR$/src/com/jk/solution/LongestSubstring_3.java" />
         <option value="$PROJECT_DIR$/src/com/jk/solution/DivideIntegers_29.java" />
-        <option value="$PROJECT_DIR$/src/com/jk/LeetCode.java" />
         <option value="$PROJECT_DIR$/src/com/jk/solution/PalindromeNumber_9.java" />
+        <option value="$PROJECT_DIR$/src/com/jk/LeetCode.java" />
+        <option value="$PROJECT_DIR$/src/com/jk/solution/String2Integer_8.java" />
       </list>
     </option>
   </component>
@@ -344,7 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Set.java" />
     <entry file="file://$PROJECT_DIR$/src/com/jk/solution/LongestSubstring_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -583,20 +593,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Stack.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Vector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/ValidParentheses_20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/Sum_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jk/solution/MergeSortedLists_21.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -605,15 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/AddTwoNumbers_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Set.java" />
     <entry file="file://$PROJECT_DIR$/src/com/jk/solution/LongestSubstring_3.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -639,26 +627,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/PalindromeNumber_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="2866" column="18" lean-forward="false" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jk/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/AddTwoNumbers_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/ValidParentheses_20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/Sum_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jk/solution/ReverseInteger_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="323">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/PalindromeNumber_9.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jk/solution/String2Integer_8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="359">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
