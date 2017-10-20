@@ -1,12 +1,12 @@
 package com.jk;
 
-import com.jk.solution.RemoveNodeList_19;
+import com.jk.solution.GenerateParentheses_22;
 
 public class LeetCode {
 
     public static void main(String[] args) {
         System.out.println("JK");
-        RemoveNodeList_19.test();
+        GenerateParentheses_22.test();
     }
 
 
